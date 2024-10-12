@@ -1,0 +1,1399 @@
+{
+    "qa_pairs": [
+        {
+            "question": "Is Python an interpreted language?",
+            "golden_answer": "Yes",
+            "difficulty": "Yes/No"
+        },
+        {
+            "question": "Which is faster, Python 2 or Python 3?",
+            "golden_answer": "Python 3",
+            "difficulty": "Comparative"
+        },
+        {
+            "question": "What is the syntax for a for loop in Python?",
+            "golden_answer": "for item in iterable:",
+            "difficulty": "Generic"
+        },
+        {
+            "question": "Does a Python if statement support multiple conditions using 'and' or 'or'?",
+            "golden_answer": "Yes",
+            "difficulty": "Intersection"
+        },
+        {
+            "question": "What is the index of the second item in a Python list?",
+            "golden_answer": "1",
+            "difficulty": "Ordinal"
+        },
+        {
+            "question": "How many elements are in a Python tuple with values (1, 2, 3)?",
+            "golden_answer": "3",
+            "difficulty": "Count"
+        },
+        {
+            "question": "Is Python not a statically typed language?",
+            "golden_answer": "No",
+            "difficulty": "Difference"
+        },
+        {
+            "question": "What is the maximum value in a Python list using the max() function?",
+            "golden_answer": "Max value",
+            "difficulty": "Superlative"
+        },
+        {
+            "question": "How can you read a file, extract specific information, and then write it to a new file in Python?",
+            "golden_answer": "Using file handling operations like open(), read(), write()",
+            "difficulty": "Multihop"
+        },
+        {
+            "question": "Is Java a statically typed language?",
+            "golden_answer": "Yes",
+            "difficulty": "Yes/No"
+        },
+        {
+            "question": "Is Java platform-independent?",
+            "golden_answer": "Yes",
+            "difficulty": "Yes/No"
+        },
+        {
+            "question": "Is Java a compiled language?",
+            "golden_answer": "Yes",
+            "difficulty": "Yes/No"
+        },
+        {
+            "question": "Which is faster, ArrayList or LinkedList in Java?",
+            "golden_answer": "ArrayList",
+            "difficulty": "Comparative"
+        },
+        {
+            "question": "Compare the use of == and equals() method in Java.",
+            "golden_answer": "The == operator compares two object references, while the equals() method compares the actual contents of the objects.",
+            "difficulty": "Comparative"
+        },
+        {
+            "question": "What is the difference between JDK and JRE in Java?",
+            "golden_answer": "JDK stands for Java Development Kit, which includes JRE along with development tools, while JRE stands for Java Runtime Environment, which is necessary for running Java applications.",
+            "difficulty": "Comparative"
+        },
+        {
+            "question": "What is a constructor in Java?",
+            "golden_answer": "A constructor is a special type of method that is used to initialize objects.",
+            "difficulty": "Generic"
+        },
+        {
+            "question": "What is the difference between method overloading and method overriding in Java?",
+            "golden_answer": "Method overloading occurs in the same class with different method signatures, while method overriding occurs in different classes with the same method signature.",
+            "difficulty": "Generic"
+        },
+        {
+            "question": "What is the purpose of the 'final' keyword in Java?",
+            "golden_answer": "The 'final' keyword is used to restrict the user from changing the value of a variable, prevent inheritance, and prevent method overriding.",
+            "difficulty": "Generic"
+        },
+        {
+            "question": "In Java, when will a condition be true if both conditions A and B are true?",
+            "golden_answer": "When using the '&&' operator, both conditions A and B must be true for the overall condition to be true.",
+            "difficulty": "Intersection"
+        },
+        {
+            "question": "How do you check if a number is even and greater than 10 in Java?",
+            "golden_answer": "By using the condition 'num % 2 == 0 && num > 10'.",
+            "difficulty": "Intersection"
+        },
+        {
+            "question": "What is the result of '5th' in Java?",
+            "golden_answer": "5",
+            "difficulty": "Ordinal"
+        },
+        {
+            "question": "What is the output of '3rd' in Java?",
+            "golden_answer": "3",
+            "difficulty": "Ordinal"
+        },
+        {
+            "question": "What is the value of '2nd' in Java?",
+            "golden_answer": "2",
+            "difficulty": "Ordinal"
+        },
+        {
+            "question": "How many elements are there in an array of size 5 in Java?",
+            "golden_answer": "5",
+            "difficulty": "Count"
+        },
+        {
+            "question": "How many bytes does an int variable occupy in Java?",
+            "golden_answer": "4 bytes",
+            "difficulty": "Count"
+        },
+        {
+            "question": "How many primitive data types are there in Java?",
+            "golden_answer": "8",
+            "difficulty": "Count"
+        },
+        {
+            "question": "What is the difference between '==' and '!=' operators in Java?",
+            "golden_answer": "'==' is used to check if two values are equal, while '!=' is used to check if two values are not equal.",
+            "difficulty": "Difference"
+        },
+        {
+            "question": "What is the opposite of 'true' in Java?",
+            "golden_answer": "false",
+            "difficulty": "Difference"
+        },
+        {
+            "question": "Which is the smallest number among 5, 10, and 15 in Java?",
+            "golden_answer": "5",
+            "difficulty": "Superlative"
+        },
+        {
+            "question": "What is the largest number among 25, 50, and 75 in Java?",
+            "golden_answer": "75",
+            "difficulty": "Superlative"
+        },
+        {
+            "question": "What is the minimum value in an array of integers in Java?",
+            "golden_answer": "Arrays.stream(array).min().getAsInt()",
+            "difficulty": "Superlative"
+        },
+        {
+            "question": "How do you find the sum of elements in an array in Java?",
+            "golden_answer": "By using a loop to iterate through the array and adding each element to a sum variable.",
+            "difficulty": "Multihop"
+        },
+        {
+            "question": "Explain the steps to read a file line by line in Java.",
+            "golden_answer": "1. Create a FileReader object. 2. Wrap the FileReader in a BufferedReader. 3. Use the readLine() method to read each line.",
+            "difficulty": "Multihop"
+        },
+        {
+            "question": "How do you sort an array of integers in Java in descending order?",
+            "golden_answer": "By using Arrays.sort(array, Collections.reverseOrder()).",
+            "difficulty": "Multihop"
+        },
+        {
+            "question": "Is C# a statically typed language?",
+            "golden_answer": "Yes",
+            "difficulty": "Yes/No"
+        },
+        {
+            "question": "Is C# an object-oriented programming language?",
+            "golden_answer": "Yes",
+            "difficulty": "Yes/No"
+        },
+        {
+            "question": "Does C# support multiple inheritance?",
+            "golden_answer": "No",
+            "difficulty": "Yes/No"
+        },
+        {
+            "question": "Compare C# and Java based on their syntax.",
+            "golden_answer": "C# uses curly braces for defining blocks, while Java uses curly braces and semicolons.",
+            "difficulty": "Comparative"
+        },
+        {
+            "question": "Compare C# and Python based on their performance.",
+            "golden_answer": "C# is generally faster than Python due to its statically typed nature.",
+            "difficulty": "Comparative"
+        },
+        {
+            "question": "Compare C# and JavaScript based on their usage in web development.",
+            "golden_answer": "JavaScript is more commonly used for client-side web development, while C# is often used for server-side development.",
+            "difficulty": "Comparative"
+        },
+        {
+            "question": "What is the purpose of using 'using' keyword in C#?",
+            "golden_answer": "'using' is used for automatic memory management and disposing of resources.",
+            "difficulty": "Generic"
+        },
+        {
+            "question": "How do you declare a variable in C#?",
+            "golden_answer": "You can declare a variable in C# using the 'var' keyword followed by the variable name and its type.",
+            "difficulty": "Generic"
+        },
+        {
+            "question": "What is the difference between '==' and 'Equals()' in C#?",
+            "golden_answer": "'==' is used to compare the reference identity of objects, while 'Equals()' is used to compare the values of objects.",
+            "difficulty": "Generic"
+        },
+        {
+            "question": "In C#, how can you check if a number is both positive and even?",
+            "golden_answer": "You can check if a number is both positive and even by using the condition 'number > 0 && number % 2 == 0'.",
+            "difficulty": "Intersection"
+        },
+        {
+            "question": "How can you filter a list of strings in C# to only include those starting with the letter 'A' and having more than 5 characters?",
+            "golden_answer": "You can filter the list using LINQ with the condition 'str.StartsWith(\"A\") && str.Length > 5'.",
+            "difficulty": "Intersection"
+        },
+        {
+            "question": "How can you check if a given string contains both uppercase and lowercase letters in C#?",
+            "golden_answer": "You can check using the condition 'str.Any(char.IsUpper) && str.Any(char.IsLower)'.",
+            "difficulty": "Intersection"
+        },
+        {
+            "question": "What is the 3rd keyword in the C# keyword list?",
+            "golden_answer": "case",
+            "difficulty": "Ordinal"
+        },
+        {
+            "question": "What is the 5th access modifier in C#?",
+            "golden_answer": "protected",
+            "difficulty": "Ordinal"
+        },
+        {
+            "question": "What is the 7th data type in C#?",
+            "golden_answer": "long",
+            "difficulty": "Ordinal"
+        },
+        {
+            "question": "How many built-in data types are there in C#?",
+            "golden_answer": "There are 16 built-in data types in C#.",
+            "difficulty": "Count"
+        },
+        {
+            "question": "How many access modifiers are there in C#?",
+            "golden_answer": "There are 5 access modifiers in C#.",
+            "difficulty": "Count"
+        },
+        {
+            "question": "How many control structures are supported in C#?",
+            "golden_answer": "There are 5 control structures supported in C#.",
+            "difficulty": "Count"
+        },
+        {
+            "question": "What is the difference between '!=' and 'Equals()' in C#?",
+            "golden_answer": "'!=' is used to check for inequality, while 'Equals()' is used to check for equality.",
+            "difficulty": "Difference"
+        },
+        {
+            "question": "How can you negate a condition in C#?",
+            "golden_answer": "You can negate a condition using the '!' operator in C#.",
+            "difficulty": "Difference"
+        },
+        {
+            "question": "What is the minimum value that can be stored in an 'int' variable in C#?",
+            "golden_answer": "The minimum value that can be stored in an 'int' variable in C# is -2,147,483,648.",
+            "difficulty": "Superlative"
+        },
+        {
+            "question": "What is the maximum value that can be stored in a 'byte' variable in C#?",
+            "golden_answer": "The maximum value that can be stored in a 'byte' variable in C# is 255.",
+            "difficulty": "Superlative"
+        },
+        {
+            "question": "What is the most commonly used loop structure in C#?",
+            "golden_answer": "The 'for' loop is the most commonly used loop structure in C#.",
+            "difficulty": "Superlative"
+        },
+        {
+            "question": "How can you convert a string to an integer in C#?",
+            "golden_answer": "To convert a string to an integer in C#, you can use the 'int.Parse()' or 'int.TryParse()' method.",
+            "difficulty": "Multihop"
+        },
+        {
+            "question": "How can you sort a list of integers in descending order in C#?",
+            "golden_answer": "You can sort the list using LINQ with the method 'OrderByDescending()'.",
+            "difficulty": "Multihop"
+        },
+        {
+            "question": "How can you find the average of a list of numbers in C#?",
+            "golden_answer": "You can find the average using LINQ with the method 'Average()'.",
+            "difficulty": "Multihop"
+        },
+        {
+            "question": "Is C a high-level programming language?",
+            "golden_answer": "No",
+            "difficulty": "Yes/No"
+        },
+        {
+            "question": "Does C support object-oriented programming?",
+            "golden_answer": "No",
+            "difficulty": "Yes/No"
+        },
+        {
+            "question": "Is C a statically typed language?",
+            "golden_answer": "Yes",
+            "difficulty": "Yes/No"
+        },
+        {
+            "question": "Compare the syntax of C and Java.",
+            "golden_answer": "C syntax is simpler and more concise compared to Java.",
+            "difficulty": "Comparative"
+        },
+        {
+            "question": "Compare the memory management in C and Python.",
+            "golden_answer": "C requires manual memory management while Python has automatic memory management.",
+            "difficulty": "Comparative"
+        },
+        {
+            "question": "What is the purpose of the 'printf' function in C?",
+            "golden_answer": "'printf' is used to print formatted output to the console.",
+            "difficulty": "Generic"
+        },
+        {
+            "question": "How can you check if a number is even in C?",
+            "golden_answer": "You can check if a number is even by using the modulo operator (%) with 2.",
+            "difficulty": "Generic"
+        },
+        {
+            "question": "What is the result of the expression '5 && 0' in C?",
+            "golden_answer": "The result is 0.",
+            "difficulty": "Generic"
+        },
+        {
+            "question": "What conditions need to be met for a number to be both even and divisible by 3 in C?",
+            "golden_answer": "The number must be divisible by both 2 and 3.",
+            "difficulty": "Intersection"
+        },
+        {
+            "question": "Check if a number is positive and odd in C.",
+            "golden_answer": "The number is positive and odd if it is greater than 0 and not divisible by 2.",
+            "difficulty": "Intersection"
+        },
+        {
+            "question": "What is the 5th element in an array in C?",
+            "golden_answer": "The 5th element in an array is accessed using index 4.",
+            "difficulty": "Ordinal"
+        },
+        {
+            "question": "What is the 3rd largest number in a given array in C?",
+            "golden_answer": "The 3rd largest number can be found by sorting the array in descending order and selecting the element at index 2.",
+            "difficulty": "Ordinal"
+        },
+        {
+            "question": "How many elements are there in an array of size 10 in C?",
+            "golden_answer": "There are 10 elements in an array of size 10.",
+            "difficulty": "Count"
+        },
+        {
+            "question": "Count the number of vowels in a given string in C.",
+            "golden_answer": "You can count the number of vowels by iterating through the string and checking if each character is a vowel.",
+            "difficulty": "Count"
+        },
+        {
+            "question": "What is the difference between '==' and '!=' operators in C?",
+            "golden_answer": "'==' checks for equality while '!=' checks for inequality.",
+            "difficulty": "Difference"
+        },
+        {
+            "question": "What is the difference between '++i' and 'i++' in C?",
+            "golden_answer": "'++i' increments the value of 'i' before using it in an expression, while 'i++' increments 'i' after using it.",
+            "difficulty": "Difference"
+        },
+        {
+            "question": "What is the maximum value of an integer in C?",
+            "golden_answer": "The maximum value of an integer in C is implementation-dependent, but it is commonly 2147483647.",
+            "difficulty": "Superlative"
+        },
+        {
+            "question": "What is the minimum value of a float in C?",
+            "golden_answer": "The minimum value of a float in C is approximately 1.17549e-38.",
+            "difficulty": "Superlative"
+        },
+        {
+            "question": "How can you find the sum of all elements in a 2D array in C?",
+            "golden_answer": "You can find the sum by iterating through each element of the array and adding it to a running total.",
+            "difficulty": "Multihop"
+        },
+        {
+            "question": "How can you sort an array in descending order in C?",
+            "golden_answer": "You can sort an array in descending order by using a custom comparison function in the 'qsort' function.",
+            "difficulty": "Multihop"
+        },
+        {
+            "question": "Is JavaScript a dynamically typed language?",
+            "golden_answer": "Yes",
+            "difficulty": "Yes/No"
+        },
+        {
+            "question": "Does JavaScript support object-oriented programming?",
+            "golden_answer": "Yes",
+            "difficulty": "Yes/No"
+        },
+        {
+            "question": "Can JavaScript be used for both front-end and back-end development?",
+            "golden_answer": "Yes",
+            "difficulty": "Yes/No"
+        },
+        {
+            "question": "Compare the use of '==' and '===' operators in JavaScript.",
+            "golden_answer": "'==' compares only the values, while '===' compares both values and types.",
+            "difficulty": "Comparative"
+        },
+        {
+            "question": "Compare the 'let', 'var', and 'const' keywords in JavaScript.",
+            "golden_answer": "'let' and 'const' have block scope, while 'var' has function scope.",
+            "difficulty": "Comparative"
+        },
+        {
+            "question": "What are the differences between 'null' and 'undefined' in JavaScript?",
+            "golden_answer": "'null' is an assigned value that represents the absence of a value, while 'undefined' means a variable has been declared but not assigned a value.",
+            "difficulty": "Difference"
+        },
+        {
+            "question": "How do you loop through an array in JavaScript?",
+            "golden_answer": "You can use a 'for' loop, 'forEach' method, or 'map' method.",
+            "difficulty": "Generic"
+        },
+        {
+            "question": "What is the result of 3 + 2 * 5 in JavaScript?",
+            "golden_answer": "The result is 13.",
+            "difficulty": "Generic"
+        },
+        {
+            "question": "How can you check if a variable is an array in JavaScript?",
+            "golden_answer": "You can use the 'Array.isArray()' method.",
+            "difficulty": "Generic"
+        },
+        {
+            "question": "What is the intersection of two arrays in JavaScript?",
+            "golden_answer": "The intersection is the common elements between the two arrays.",
+            "difficulty": "Intersection"
+        },
+        {
+            "question": "How can you find the maximum number in an array in JavaScript?",
+            "golden_answer": "You can use the 'Math.max(...array)' method.",
+            "difficulty": "Superlative"
+        },
+        {
+            "question": "What is the third element in an array called in JavaScript?",
+            "golden_answer": "It is called the element at index 2.",
+            "difficulty": "Ordinal"
+        },
+        {
+            "question": "How many elements are there in an array with length 5 in JavaScript?",
+            "golden_answer": "There are 5 elements.",
+            "difficulty": "Count"
+        },
+        {
+            "question": "What are the steps to create a function that returns the sum of two numbers in JavaScript?",
+            "golden_answer": "1. Declare a function with parameters for the two numbers. 2. Inside the function, add the two numbers together. 3. Return the result.",
+            "difficulty": "Multihop"
+        },
+        {
+            "question": "Is C++ a high-level programming language?",
+            "golden_answer": "Yes",
+            "difficulty": "Yes/No"
+        },
+        {
+            "question": "Is C++ faster than Python in terms of execution speed?",
+            "golden_answer": "Yes",
+            "difficulty": "Yes/No"
+        },
+        {
+            "question": "Is C++ a statically typed language?",
+            "golden_answer": "Yes",
+            "difficulty": "Yes/No"
+        },
+        {
+            "question": "Compare C++ and Java in terms of memory management.",
+            "golden_answer": "C++ provides manual memory management while Java has automatic garbage collection.",
+            "difficulty": "Comparative"
+        },
+        {
+            "question": "Compare C++ and Python in terms of performance.",
+            "golden_answer": "C++ is generally faster than Python due to its compiled nature.",
+            "difficulty": "Comparative"
+        },
+        {
+            "question": "Compare C++ and C# in terms of platform support.",
+            "golden_answer": "C++ is more platform-independent compared to C#.",
+            "difficulty": "Comparative"
+        },
+        {
+            "question": "What is the syntax for declaring a variable in C++?",
+            "golden_answer": "In C++, you declare a variable by specifying its data type followed by the variable name.",
+            "difficulty": "Generic"
+        },
+        {
+            "question": "What is the purpose of using the 'const' keyword in C++?",
+            "golden_answer": "The 'const' keyword in C++ is used to define constants or to specify that a variable cannot be modified.",
+            "difficulty": "Generic"
+        },
+        {
+            "question": "How do you define a function in C++?",
+            "golden_answer": "In C++, you define a function by specifying its return type, name, and parameters.",
+            "difficulty": "Generic"
+        },
+        {
+            "question": "In C++, how do you check if a number is both positive and even?",
+            "golden_answer": "You can check if a number is both positive and even by using the condition 'number > 0 && number % 2 == 0'.",
+            "difficulty": "Intersection"
+        },
+        {
+            "question": "How can you determine if a character is a vowel and a lowercase letter in C++?",
+            "golden_answer": "You can determine if a character is a vowel and a lowercase letter by checking if it belongs to the set {'a', 'e', 'i', 'o', 'u'} and if it is in the range 'a' to 'z'.",
+            "difficulty": "Intersection"
+        },
+        {
+            "question": "What is the result of the expression '5 * 3 + 2' in C++?",
+            "golden_answer": "The result of the expression '5 * 3 + 2' in C++ is 17.",
+            "difficulty": "Intersection"
+        },
+        {
+            "question": "What is the ordinal position of the element 'apple' in a list of fruits?",
+            "golden_answer": "The ordinal position of 'apple' in a list of fruits would depend on its position in the list.",
+            "difficulty": "Ordinal"
+        },
+        {
+            "question": "In a list of programming languages, where does C++ typically rank in terms of popularity?",
+            "golden_answer": "C++ is often ranked among the top programming languages in terms of popularity.",
+            "difficulty": "Ordinal"
+        },
+        {
+            "question": "What is the third step in compiling a C++ program?",
+            "golden_answer": "The third step in compiling a C++ program is linking, where the compiler combines object files into an executable program.",
+            "difficulty": "Ordinal"
+        },
+        {
+            "question": "How many data types are there in C++?",
+            "golden_answer": "There are several data types in C++, including int, float, double, char, and more.",
+            "difficulty": "Count"
+        },
+        {
+            "question": "How many access specifiers are there in C++?",
+            "golden_answer": "There are three access specifiers in C++: public, private, and protected.",
+            "difficulty": "Count"
+        },
+        {
+            "question": "How many operators are there in C++?",
+            "golden_answer": "There are various operators in C++ such as arithmetic, relational, logical, bitwise, and more.",
+            "difficulty": "Count"
+        },
+        {
+            "question": "What is the difference between '==' and '!=' operators in C++?",
+            "golden_answer": "The '==' operator checks for equality, while the '!=' operator checks for inequality in C++.",
+            "difficulty": "Difference"
+        },
+        {
+            "question": "What is the difference between 'int' and 'float' data types in C++?",
+            "golden_answer": "The 'int' data type is used for integers, while the 'float' data type is used for floating-point numbers in C++.",
+            "difficulty": "Difference"
+        },
+        {
+            "question": "What is the difference between 'break' and 'continue' statements in C++?",
+            "golden_answer": "The 'break' statement is used to exit a loop, while the 'continue' statement is used to skip the current iteration and continue with the next one.",
+            "difficulty": "Difference"
+        },
+        {
+            "question": "What is the maximum number of elements that can be stored in an array in C++?",
+            "golden_answer": "The maximum number of elements that can be stored in an array in C++ is determined by the available memory in the system.",
+            "difficulty": "Superlative"
+        },
+        {
+            "question": "What is the minimum value that can be represented by an 'int' data type in C++?",
+            "golden_answer": "The minimum value that can be represented by an 'int' data type in C++ is typically -2147483648.",
+            "difficulty": "Superlative"
+        },
+        {
+            "question": "What is the maximum number of function parameters allowed in C++?",
+            "golden_answer": "The maximum number of function parameters allowed in C++ is implementation-dependent.",
+            "difficulty": "Superlative"
+        },
+        {
+            "question": "How can you calculate the factorial of a number in C++ using multiple steps?",
+            "golden_answer": "To calculate the factorial of a number in C++, you can use a loop to multiply numbers from 1 to the given number.",
+            "difficulty": "Multihop"
+        },
+        {
+            "question": "How can you find the largest element in an array in C++ using multiple steps?",
+            "golden_answer": "To find the largest element in an array in C++, you can iterate through the array and keep track of the current maximum element.",
+            "difficulty": "Multihop"
+        },
+        {
+            "question": "How can you reverse a string in C++ using multiple steps?",
+            "golden_answer": "To reverse a string in C++, you can swap characters from both ends of the string until you reach the middle.",
+            "difficulty": "Multihop"
+        },
+        {
+            "question": "Is Go a statically typed language?",
+            "golden_answer": "Yes",
+            "difficulty": "Yes/No"
+        },
+        {
+            "question": "Is Go faster in compilation compared to other programming languages?",
+            "golden_answer": "Yes",
+            "difficulty": "Yes/No"
+        },
+        {
+            "question": "Does Go support concurrent programming?",
+            "golden_answer": "Yes",
+            "difficulty": "Yes/No"
+        },
+        {
+            "question": "How does Go's garbage collection compare to other languages?",
+            "golden_answer": "Go's garbage collection is more efficient",
+            "difficulty": "Comparative"
+        },
+        {
+            "question": "Compare the syntax of Go with C++.",
+            "golden_answer": "Go has a simpler syntax compared to C++",
+            "difficulty": "Comparative"
+        },
+        {
+            "question": "What is the purpose of goroutines in Go?",
+            "golden_answer": "Goroutines are used for concurrent programming",
+            "difficulty": "Comparative"
+        },
+        {
+            "question": "What is the main feature of Go's standard library?",
+            "golden_answer": "The standard library is comprehensive and efficient",
+            "difficulty": "Generic"
+        },
+        {
+            "question": "How does Go handle errors in comparison to other languages?",
+            "golden_answer": "Go encourages explicit error handling",
+            "difficulty": "Generic"
+        },
+        {
+            "question": "What is the role of channels in Go programming?",
+            "golden_answer": "Channels are used for communication between goroutines",
+            "difficulty": "Generic"
+        },
+        {
+            "question": "Does a Go function need to return a value and an error?",
+            "golden_answer": "Yes, to handle errors effectively",
+            "difficulty": "Intersection"
+        },
+        {
+            "question": "Is it possible to use both goroutines and channels in a Go program?",
+            "golden_answer": "Yes, they are often used together for concurrent programming",
+            "difficulty": "Intersection"
+        },
+        {
+            "question": "Can a variable be both nil and have a value at the same time in Go?",
+            "golden_answer": "No, a variable cannot be both nil and have a value simultaneously",
+            "difficulty": "Intersection"
+        },
+        {
+            "question": "Where does Go rank in terms of popularity among programming languages?",
+            "golden_answer": "Go is ranked relatively high in popularity among programming languages",
+            "difficulty": "Ordinal"
+        },
+        {
+            "question": "What is the most commonly used IDE for Go development?",
+            "golden_answer": "Visual Studio Code is a popular choice among Go developers",
+            "difficulty": "Ordinal"
+        },
+        {
+            "question": "Which programming language is most similar to Go in terms of syntax?",
+            "golden_answer": "Go is most similar to C in terms of syntax",
+            "difficulty": "Ordinal"
+        },
+        {
+            "question": "How many built-in data types does Go support?",
+            "golden_answer": "Go supports several built-in data types including int, string, and bool",
+            "difficulty": "Count"
+        },
+        {
+            "question": "How many control structures are available in Go?",
+            "golden_answer": "Go provides control structures such as if, for, and switch",
+            "difficulty": "Count"
+        },
+        {
+            "question": "How many access modifiers does Go have?",
+            "golden_answer": "Go has one access modifier: uppercase for public, lowercase for private",
+            "difficulty": "Count"
+        },
+        {
+            "question": "Is Go a purely functional programming language?",
+            "golden_answer": "No, Go is not a purely functional programming language",
+            "difficulty": "Difference"
+        },
+        {
+            "question": "Does Go support object-oriented programming?",
+            "golden_answer": "Yes, Go supports object-oriented programming through struct types",
+            "difficulty": "Difference"
+        },
+        {
+            "question": "Is Go a dynamically typed language?",
+            "golden_answer": "No, Go is a statically typed language",
+            "difficulty": "Difference"
+        },
+        {
+            "question": "What is the maximum number of concurrent goroutines that can run in a Go program?",
+            "golden_answer": "There is no fixed limit, but it depends on system resources",
+            "difficulty": "Superlative"
+        },
+        {
+            "question": "Which programming language has the fastest compilation time?",
+            "golden_answer": "Go is known for its fast compilation times",
+            "difficulty": "Superlative"
+        },
+        {
+            "question": "What is the minimum number of lines of code needed to create a basic web server in Go?",
+            "golden_answer": "A basic web server can be created in just a few lines of code in Go",
+            "difficulty": "Superlative"
+        },
+        {
+            "question": "How can you read a file, process its contents, and write to another file in Go?",
+            "golden_answer": "You can achieve this by using file I/O operations, error handling, and proper resource management",
+            "difficulty": "Multihop"
+        },
+        {
+            "question": "Explain the process of creating a RESTful API in Go using the standard library.",
+            "golden_answer": "To create a RESTful API in Go, you need to define routes, handle requests, and serialize responses",
+            "difficulty": "Multihop"
+        },
+        {
+            "question": "What are the steps involved in deploying a Go application to a cloud platform?",
+            "golden_answer": "Deploying a Go application involves building the binary, configuring the environment, and scaling resources as needed",
+            "difficulty": "Multihop"
+        },
+        {
+            "question": "Is Visual Basic (.NET) an object-oriented programming language?",
+            "golden_answer": "Yes",
+            "difficulty": "Yes/No"
+        },
+        {
+            "question": "Can Visual Basic (.NET) be used to create web applications?",
+            "golden_answer": "Yes",
+            "difficulty": "Yes/No"
+        },
+        {
+            "question": "Is Visual Basic (.NET) a compiled language?",
+            "golden_answer": "Yes",
+            "difficulty": "Yes/No"
+        },
+        {
+            "question": "Which is faster, Visual Basic (.NET) or C#?",
+            "golden_answer": "C#",
+            "difficulty": "Comparative"
+        },
+        {
+            "question": "Compare the syntax of Visual Basic (.NET) and Python.",
+            "golden_answer": "Visual Basic (.NET) uses a more verbose syntax compared to Python.",
+            "difficulty": "Comparative"
+        },
+        {
+            "question": "Which is more commonly used, Visual Basic (.NET) or Java?",
+            "golden_answer": "Java",
+            "difficulty": "Comparative"
+        },
+        {
+            "question": "What is the purpose of the 'Imports' statement in Visual Basic (.NET)?",
+            "golden_answer": "To import namespaces for easier access to classes and functions",
+            "difficulty": "Generic"
+        },
+        {
+            "question": "How do you declare a variable in Visual Basic (.NET)?",
+            "golden_answer": "By using the 'Dim' keyword followed by the variable name",
+            "difficulty": "Generic"
+        },
+        {
+            "question": "What is the main difference between Visual Basic (.NET) and Visual Basic 6.0?",
+            "golden_answer": "Visual Basic (.NET) is based on the .NET framework and is more modern and powerful.",
+            "difficulty": "Generic"
+        },
+        {
+            "question": "How do you check if a number is both even and greater than 10 in Visual Basic (.NET)?",
+            "golden_answer": "By using the logical 'And' operator to combine the conditions",
+            "difficulty": "Intersection"
+        },
+        {
+            "question": "What is the result of combining 'Or' and 'And' logical operators in Visual Basic (.NET)?",
+            "golden_answer": "The 'Or' operator has higher precedence and is evaluated first.",
+            "difficulty": "Intersection"
+        },
+        {
+            "question": "How do you check if a string contains both 'hello' and 'world' in Visual Basic (.NET)?",
+            "golden_answer": "By using the 'Contains' method for each substring",
+            "difficulty": "Intersection"
+        },
+        {
+            "question": "What is the ordinal position of the element 'banana' in a list of fruits?",
+            "golden_answer": "2nd",
+            "difficulty": "Ordinal"
+        },
+        {
+            "question": "In a list of programming languages, where does Visual Basic (.NET) rank in terms of popularity?",
+            "golden_answer": "7th",
+            "difficulty": "Ordinal"
+        },
+        {
+            "question": "Which version of Visual Basic (.NET) was released first, 2005 or 2010?",
+            "golden_answer": "2005",
+            "difficulty": "Ordinal"
+        },
+        {
+            "question": "How many variables are declared in the following code snippet: Dim x As Integer, y As Integer, z As Integer?",
+            "golden_answer": "3",
+            "difficulty": "Count"
+        },
+        {
+            "question": "How many different data types are supported in Visual Basic (.NET)?",
+            "golden_answer": "Multiple",
+            "difficulty": "Count"
+        },
+        {
+            "question": "How many control structures are available in Visual Basic (.NET) for decision making?",
+            "golden_answer": "Several",
+            "difficulty": "Count"
+        },
+        {
+            "question": "Which of the following is not a valid data type in Visual Basic (.NET): Integer, String, Boolean, Float?",
+            "golden_answer": "Float",
+            "difficulty": "Difference"
+        },
+        {
+            "question": "Is Visual Basic (.NET) case-sensitive when it comes to variable names?",
+            "golden_answer": "No",
+            "difficulty": "Difference"
+        },
+        {
+            "question": "Does Visual Basic (.NET) support multiple inheritance?",
+            "golden_answer": "No",
+            "difficulty": "Difference"
+        },
+        {
+            "question": "What is the maximum value in a list of numbers in Visual Basic (.NET)?",
+            "golden_answer": "Max",
+            "difficulty": "Superlative"
+        },
+        {
+            "question": "Which data type requires the least amount of memory in Visual Basic (.NET)?",
+            "golden_answer": "Boolean",
+            "difficulty": "Superlative"
+        },
+        {
+            "question": "What is the minimum value in a list of numbers in Visual Basic (.NET)?",
+            "golden_answer": "Min",
+            "difficulty": "Superlative"
+        },
+        {
+            "question": "How do you calculate the average of a list of numbers in Visual Basic (.NET)?",
+            "golden_answer": "By summing all numbers and dividing by the count of numbers",
+            "difficulty": "Multihop"
+        },
+        {
+            "question": "What are the steps to create a simple Windows Forms application in Visual Basic (.NET)?",
+            "golden_answer": "Design the form, add controls, write code for event handlers",
+            "difficulty": "Multihop"
+        },
+        {
+            "question": "How do you read data from a text file, process it, and then write the results to another file in Visual Basic (.NET)?",
+            "golden_answer": "By using file input/output operations and string manipulation techniques",
+            "difficulty": "Multihop"
+        },
+        {
+            "question": "What is the primary use of Fortran?",
+            "golden_answer": "Yes",
+            "difficulty": "Yes/No Question"
+        },
+        {
+            "question": "How does Fortran compare to other programming languages in terms of performance?",
+            "golden_answer": "Fortran is known for its high performance and efficiency compared to many other programming languages.",
+            "difficulty": "Comparative"
+        },
+        {
+            "question": "What is the syntax for declaring a variable in Fortran?",
+            "golden_answer": "In Fortran, variables are declared using the 'INTEGER', 'REAL', 'CHARACTER', or other data types followed by the variable name.",
+            "difficulty": "Generic"
+        },
+        {
+            "question": "In Fortran, how can you check if two variables are both greater than 10?",
+            "golden_answer": "You can use an 'IF' statement with the conditions 'variable1 > 10 .AND. variable2 > 10'.",
+            "difficulty": "Intersection"
+        },
+        {
+            "question": "What is the ordinal position of Fortran in the list of oldest programming languages?",
+            "golden_answer": "Fortran is one of the oldest programming languages, dating back to 1957.",
+            "difficulty": "Ordinal"
+        },
+        {
+            "question": "How many built-in functions are available in Fortran for mathematical operations?",
+            "golden_answer": "Fortran provides a wide range of built-in functions for mathematical operations, including trigonometric functions, logarithmic functions, and more.",
+            "difficulty": "Count"
+        },
+        {
+            "question": "Is it true that Fortran does not support object-oriented programming?",
+            "golden_answer": "No",
+            "difficulty": "Difference"
+        },
+        {
+            "question": "Which programming language is considered the superlative in terms of scientific and engineering applications?",
+            "golden_answer": "Fortran is often considered the best choice for scientific and engineering applications due to its high performance and efficiency.",
+            "difficulty": "Superlative"
+        },
+        {
+            "question": "To calculate the average of an array in Fortran, what are the multihop steps involved?",
+            "golden_answer": "The multihop steps involve summing up all elements of the array and then dividing the sum by the total number of elements.",
+            "difficulty": "Multihop"
+        },
+        {
+            "question": "Is SQL a programming language?",
+            "golden_answer": "Yes",
+            "difficulty": "Yes/No Question"
+        },
+        {
+            "question": "Which department has the highest average salary?",
+            "golden_answer": "Sales department",
+            "difficulty": "Comparative"
+        },
+        {
+            "question": "What is the syntax to create a table in SQL?",
+            "golden_answer": "CREATE TABLE table_name (column1 datatype, column2 datatype, ...);",
+            "difficulty": "Generic"
+        },
+        {
+            "question": "Which employees are both in the Sales department and have a salary greater than $50,000?",
+            "golden_answer": "Employees A and B",
+            "difficulty": "Intersection"
+        },
+        {
+            "question": "What is the 3rd most recent order in the database?",
+            "golden_answer": "Order #1234",
+            "difficulty": "Ordinal"
+        },
+        {
+            "question": "How many employees are there in the Marketing department?",
+            "golden_answer": "10",
+            "difficulty": "Count"
+        },
+        {
+            "question": "Which employees do not have a manager assigned to them?",
+            "golden_answer": "Employees C and D",
+            "difficulty": "Difference"
+        },
+        {
+            "question": "What is the highest salary among all employees?",
+            "golden_answer": "$80,000",
+            "difficulty": "Superlative"
+        },
+        {
+            "question": "What is the total sales revenue for the month of January?",
+            "golden_answer": "$100,000",
+            "difficulty": "Multihop"
+        },
+        {
+            "question": "Is Delphi a programming language?",
+            "golden_answer": "Yes",
+            "difficulty": "Yes/No"
+        },
+        {
+            "question": "Is Delphi considered an object-oriented programming language?",
+            "golden_answer": "Yes",
+            "difficulty": "Yes/No"
+        },
+        {
+            "question": "Which is older, Delphi or Python?",
+            "golden_answer": "Delphi",
+            "difficulty": "Comparative"
+        },
+        {
+            "question": "Compare the popularity of Delphi and Java.",
+            "golden_answer": "Java is more popular than Delphi.",
+            "difficulty": "Comparative"
+        },
+        {
+            "question": "What is the main use of Delphi?",
+            "golden_answer": "Developing Windows applications",
+            "difficulty": "Generic"
+        },
+        {
+            "question": "What is the name of the company that originally developed Delphi?",
+            "golden_answer": "Borland",
+            "difficulty": "Generic"
+        },
+        {
+            "question": "Does Delphi support multiple inheritance?",
+            "golden_answer": "No",
+            "difficulty": "Intersection"
+        },
+        {
+            "question": "Is Delphi a compiled language and a RAD tool?",
+            "golden_answer": "Yes",
+            "difficulty": "Intersection"
+        },
+        {
+            "question": "In a list of programming languages, where does Delphi rank alphabetically?",
+            "golden_answer": "D",
+            "difficulty": "Ordinal"
+        },
+        {
+            "question": "Which version of Delphi was released first, Delphi 7 or Delphi 2005?",
+            "golden_answer": "Delphi 7",
+            "difficulty": "Ordinal"
+        },
+        {
+            "question": "How many versions of Delphi have been released so far?",
+            "golden_answer": "Over 10",
+            "difficulty": "Count"
+        },
+        {
+            "question": "How many supported platforms does Delphi offer for development?",
+            "golden_answer": "Multiple platforms",
+            "difficulty": "Count"
+        },
+        {
+            "question": "Is Delphi not a web development tool?",
+            "golden_answer": "No, Delphi is also used for web development.",
+            "difficulty": "Difference"
+        },
+        {
+            "question": "Does Delphi have the highest market share among all programming languages?",
+            "golden_answer": "No, Delphi does not have the highest market share.",
+            "difficulty": "Difference"
+        },
+        {
+            "question": "Which version of Delphi introduced the most advanced features?",
+            "golden_answer": "Delphi 10",
+            "difficulty": "Superlative"
+        },
+        {
+            "question": "Which version of Delphi has the smallest file size?",
+            "golden_answer": "Delphi 7",
+            "difficulty": "Superlative"
+        },
+        {
+            "question": "To create a GUI application in Delphi, what are the necessary steps?",
+            "golden_answer": "Design the interface, write the code, compile the application",
+            "difficulty": "Multihop"
+        },
+        {
+            "question": "What is the process to debug a Delphi application?",
+            "golden_answer": "Set breakpoints, run the application, analyze the code",
+            "difficulty": "Multihop"
+        },
+        {
+            "question": "Is Rust a statically typed programming language?",
+            "golden_answer": "Yes",
+            "difficulty": "Yes/No"
+        },
+        {
+            "question": "Can Rust be used for systems programming?",
+            "golden_answer": "Yes",
+            "difficulty": "Yes/No"
+        },
+        {
+            "question": "Is Rust memory safe by design?",
+            "golden_answer": "Yes",
+            "difficulty": "Yes/No"
+        },
+        {
+            "question": "How does Rust's performance compare to C++?",
+            "golden_answer": "Rust's performance is comparable to C++",
+            "difficulty": "Comparative"
+        },
+        {
+            "question": "Compare Rust and Go in terms of memory safety features.",
+            "golden_answer": "Rust provides stronger memory safety guarantees compared to Go",
+            "difficulty": "Comparative"
+        },
+        {
+            "question": "What are some common use cases for Rust?",
+            "golden_answer": "Systems programming, embedded systems, and web services",
+            "difficulty": "Generic"
+        },
+        {
+            "question": "In Rust, what conditions must be met to access a mutable reference and an immutable reference to the same data?",
+            "golden_answer": "The mutable reference must be the only reference to the data at the time",
+            "difficulty": "Intersection"
+        },
+        {
+            "question": "What is the ordinal position of Rust in the TIOBE index as of September 2021?",
+            "golden_answer": "Rust is ranked 20th in the TIOBE index as of September 2021",
+            "difficulty": "Ordinal"
+        },
+        {
+            "question": "How many memory safety violations did the RustBelt project find in Rust's standard library?",
+            "golden_answer": "The RustBelt project found zero memory safety violations in Rust's standard library",
+            "difficulty": "Count"
+        },
+        {
+            "question": "What is the key difference between Rust and traditional C/C++ programming languages?",
+            "golden_answer": "Rust eliminates the possibility of null pointer dereferencing",
+            "difficulty": "Difference"
+        },
+        {
+            "question": "Which programming language has a smaller memory footprint, Rust or Java?",
+            "golden_answer": "Rust has a smaller memory footprint compared to Java",
+            "difficulty": "Superlative"
+        },
+        {
+            "question": "How many steps are required to set up a basic web server using Rust and the Rocket framework?",
+            "golden_answer": "Three steps are required to set up a basic web server using Rust and the Rocket framework",
+            "difficulty": "Multihop"
+        },
+        {
+            "question": "Is Ruby an object-oriented programming language?",
+            "golden_answer": "Yes",
+            "difficulty": "Yes/No"
+        },
+        {
+            "question": "Can Ruby be used for web development?",
+            "golden_answer": "Yes",
+            "difficulty": "Yes/No"
+        },
+        {
+            "question": "Is Ruby a statically typed language?",
+            "golden_answer": "No",
+            "difficulty": "Yes/No"
+        },
+        {
+            "question": "Which is faster, Ruby or Python?",
+            "golden_answer": "It depends on the specific use case",
+            "difficulty": "Comparative"
+        },
+        {
+            "question": "Compare the syntax of Ruby and Java.",
+            "golden_answer": "Ruby has a more concise and flexible syntax compared to Java",
+            "difficulty": "Comparative"
+        },
+        {
+            "question": "What is the purpose of the 'puts' method in Ruby?",
+            "golden_answer": "To output a string with a newline character",
+            "difficulty": "Generic"
+        },
+        {
+            "question": "How do you define a class in Ruby?",
+            "golden_answer": "By using the 'class' keyword followed by the class name",
+            "difficulty": "Generic"
+        },
+        {
+            "question": "What is the result of 'true && false' in Ruby?",
+            "golden_answer": "false",
+            "difficulty": "Generic"
+        },
+        {
+            "question": "Find the intersection of two arrays in Ruby.",
+            "golden_answer": "By using the '&' operator or the 'intersection' method",
+            "difficulty": "Intersection"
+        },
+        {
+            "question": "Check if a number is both even and greater than 10 in Ruby.",
+            "golden_answer": "By using the '&&' operator with the conditions 'number.even?' and 'number > 10'",
+            "difficulty": "Intersection"
+        },
+        {
+            "question": "What is the 3rd element in an array in Ruby?",
+            "golden_answer": "The element at index 2",
+            "difficulty": "Ordinal"
+        },
+        {
+            "question": "Which is the last element in an array in Ruby?",
+            "golden_answer": "The element at index -1",
+            "difficulty": "Ordinal"
+        },
+        {
+            "question": "Count the number of vowels in a string in Ruby.",
+            "golden_answer": "By using the 'count' method with a regex pattern for vowels",
+            "difficulty": "Count"
+        },
+        {
+            "question": "How many elements are in an array in Ruby?",
+            "golden_answer": "By using the 'length' or 'size' method",
+            "difficulty": "Count"
+        },
+        {
+            "question": "What is the difference between '==' and '===' in Ruby?",
+            "golden_answer": "'==' checks for equality, while '===' is used for case equality",
+            "difficulty": "Difference"
+        },
+        {
+            "question": "Is Ruby the most popular programming language?",
+            "golden_answer": "No",
+            "difficulty": "Difference"
+        },
+        {
+            "question": "Find the maximum value in an array in Ruby.",
+            "golden_answer": "By using the 'max' method",
+            "difficulty": "Superlative"
+        },
+        {
+            "question": "What is the minimum value in a range in Ruby?",
+            "golden_answer": "By using the 'min' method",
+            "difficulty": "Superlative"
+        },
+        {
+            "question": "How do you read a file, process its content, and then write to another file in Ruby?",
+            "golden_answer": "By using the 'File' class to read, process, and write to files",
+            "difficulty": "Multihop"
+        },
+        {
+            "question": "Is Swift a statically typed language?",
+            "golden_answer": "Yes",
+            "difficulty": "Yes/No"
+        },
+        {
+            "question": "Is Swift faster than Objective-C?",
+            "golden_answer": "Yes",
+            "difficulty": "Yes/No"
+        },
+        {
+            "question": "Which has better memory management, Swift or C++?",
+            "golden_answer": "Swift",
+            "difficulty": "Comparative"
+        },
+        {
+            "question": "Compare the syntax of Swift and Python.",
+            "golden_answer": "Swift has a more concise syntax compared to Python.",
+            "difficulty": "Comparative"
+        },
+        {
+            "question": "What is the purpose of Optionals in Swift?",
+            "golden_answer": "To handle the absence of a value in Swift.",
+            "difficulty": "Generic"
+        },
+        {
+            "question": "How do you declare a constant in Swift?",
+            "golden_answer": "Using the 'let' keyword.",
+            "difficulty": "Generic"
+        },
+        {
+            "question": "In Swift, how can you check if a number is both positive and even?",
+            "golden_answer": "By checking if the number is greater than 0 and divisible by 2.",
+            "difficulty": "Intersection"
+        },
+        {
+            "question": "What is the ordinal position of the 'if' statement in Swift's control flow structures?",
+            "golden_answer": "First",
+            "difficulty": "Ordinal"
+        },
+        {
+            "question": "How many access control levels are there in Swift?",
+            "golden_answer": "Three (private, internal, public)",
+            "difficulty": "Count"
+        },
+        {
+            "question": "What is the difference between '==' and '===' operators in Swift?",
+            "golden_answer": "'==' checks for equality, while '===' checks for identity.",
+            "difficulty": "Difference"
+        },
+        {
+            "question": "Which is the superlative level of access control in Swift?",
+            "golden_answer": "Public",
+            "difficulty": "Superlative"
+        },
+        {
+            "question": "How can you concatenate two arrays in Swift?",
+            "golden_answer": "By using the '+' operator.",
+            "difficulty": "Multihop"
+        },
+        {
+            "question": "Is PHP a server-side scripting language?",
+            "golden_answer": "Yes",
+            "difficulty": "Yes/No"
+        },
+        {
+            "question": "Can PHP be embedded into HTML?",
+            "golden_answer": "Yes",
+            "difficulty": "Yes/No"
+        },
+        {
+            "question": "Is PHP open-source?",
+            "golden_answer": "Yes",
+            "difficulty": "Yes/No"
+        },
+        {
+            "question": "Which is faster, PHP 7 or PHP 5?",
+            "golden_answer": "PHP 7",
+            "difficulty": "Comparative"
+        },
+        {
+            "question": "Compare PHP and JavaScript in terms of usage.",
+            "golden_answer": "PHP is mainly used for server-side scripting, while JavaScript is used for client-side scripting.",
+            "difficulty": "Comparative"
+        },
+        {
+            "question": "What is the difference between include() and require() functions in PHP?",
+            "golden_answer": "The include() function includes and evaluates a specified file, while the require() function includes and evaluates a specified file, but generates a fatal error if the file is not found.",
+            "difficulty": "Comparative"
+        },
+        {
+            "question": "What is the syntax for a basic 'if' statement in PHP?",
+            "golden_answer": "if (condition) { // code to be executed }",
+            "difficulty": "Generic"
+        },
+        {
+            "question": "How do you declare a variable in PHP?",
+            "golden_answer": "$variable_name = value;",
+            "difficulty": "Generic"
+        },
+        {
+            "question": "What is the purpose of the 'echo' statement in PHP?",
+            "golden_answer": "To output data to the screen",
+            "difficulty": "Generic"
+        },
+        {
+            "question": "In PHP, how can you check if a variable is an integer and within a specific range?",
+            "golden_answer": "By using the 'is_int()' function and combining it with conditional statements",
+            "difficulty": "Intersection"
+        },
+        {
+            "question": "How can you check if a string contains a specific word in PHP?",
+            "golden_answer": "By using the 'strpos()' function to find the position of the word in the string",
+            "difficulty": "Intersection"
+        },
+        {
+            "question": "What is the result of '5 % 2' in PHP?",
+            "golden_answer": "1",
+            "difficulty": "Intersection"
+        },
+        {
+            "question": "What is the first element in an array in PHP?",
+            "golden_answer": "0",
+            "difficulty": "Ordinal"
+        },
+        {
+            "question": "What is the second key in an associative array in PHP?",
+            "golden_answer": "1",
+            "difficulty": "Ordinal"
+        },
+        {
+            "question": "What is the last index of an array in PHP?",
+            "golden_answer": "The total number of elements minus 1",
+            "difficulty": "Ordinal"
+        },
+        {
+            "question": "How many elements are in the array [1, 2, 3, 4] in PHP?",
+            "golden_answer": "4",
+            "difficulty": "Count"
+        },
+        {
+            "question": "How many times does the word 'hello' appear in the string 'hello world hello' in PHP?",
+            "golden_answer": "2",
+            "difficulty": "Count"
+        },
+        {
+            "question": "How many characters are in the string 'PHP programming' in PHP?",
+            "golden_answer": "15",
+            "difficulty": "Count"
+        },
+        {
+            "question": "Which operator is used to check if two values are not equal in PHP?",
+            "golden_answer": "!=",
+            "difficulty": "Difference"
+        },
+        {
+            "question": "What is the opposite of the 'empty()' function in PHP?",
+            "golden_answer": "The 'isset()' function",
+            "difficulty": "Difference"
+        },
+        {
+            "question": "What is the maximum value in an array in PHP?",
+            "golden_answer": "The value with the highest numerical value",
+            "difficulty": "Superlative"
+        },
+        {
+            "question": "What is the minimum value in an array in PHP?",
+            "golden_answer": "The value with the lowest numerical value",
+            "difficulty": "Superlative"
+        },
+        {
+            "question": "How can you retrieve data from a MySQL database using PHP?",
+            "golden_answer": "By establishing a connection to the database, executing SQL queries, and fetching the results",
+            "difficulty": "Multihop"
+        },
+        {
+            "question": "What are the steps to create a session in PHP?",
+            "golden_answer": "Start the session, set session variables, and destroy the session when done",
+            "difficulty": "Multihop"
+        },
+        {
+            "question": "How can you upload a file using PHP?",
+            "golden_answer": "By creating a form with 'enctype='multipart/form-data' attribute and using the 'move_uploaded_file()' function",
+            "difficulty": "Multihop"
+        }
+    ]
+}

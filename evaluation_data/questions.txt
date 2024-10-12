@@ -1,0 +1,72 @@
+questions = [
+    # Yes/No Questions
+    "Which arithmetic operations does Python have?",
+    "Is JavaScript case-sensitive?",
+    "Does C++ support operator overloading?",
+    "Does Rust support garbage collection?",
+    "Can Java be used as a frontend technology?",
+
+    # Comparative Questions
+
+    #"Is C faster than Python?",
+    #"Does Java have a stricter type checking than JavaScript",
+    #"Is Ruby more similar to Perl or Python?",
+    #"Is Python more beginner-friendly than C++?",
+    #"is RUst safer in memory management compared to C?",
+
+    # Generic Questions
+
+    #"What does the public keyword mean in Java?",
+    #"What is a goroutine in Go?",
+    #"How do you define a function in Ruby?",
+    #"How do you declare a variable in Javascript?",
+    #"What is the purpose of the cargo tool in Rust?",
+
+    # Intersection Questions
+
+    #"Which versions of Java introduced both generic and annotiations?",
+    #"Which versions of Python support both f-strings and type hints?",
+    #"Which versions of C++ support both smart pointers and lambda expressions?",
+    #"Which versions of Swift support both protocol-oriented programming and error handling?",
+    #"Which versions of Rust include both async/await and the borrow checker?",
+
+    # Ordinal Questions
+
+    #"What was the first version of Python to introduce the with statement?",
+    #"In which iteration of the ECMAScript standard was let introduced in JavaScript?",
+    #"What was the first official release of Rust?",
+    #"What version of Java introduced lambdas?",
+    #"Which version of Go introduced modules for dependency management?",
+
+    # Count Questions
+
+    #"How many primitive data types does Java have, name them?",
+    #"What are the built-in data types in Ruby, name please?",
+    #"Which programming languages do have garbage collection?",
+    #"Which arithmetic operations does Python have?",
+    #"What are the primitive data types in Java?",
+
+    # Difference Questions
+
+    #"What is the difference between Java and C++ regarding memory management?",
+    #"How does Python's range function differ in Python 2 and Python 3?",
+    #"What is the difference between let and var in JavaScript?",
+    #"How does error handling differ in Go compared to traditional try-catch in languages like Java?",
+    #"What is the difference between match expressions in Rust and switch statements in C#?",
+
+    # Superlative Questions
+
+    #"What is the most commonly used Python library for data analysis?"
+    #"What is the most popular IDE for Java development?"
+    #"What is the most widely used JavaScript framework for front-end development?"
+    #"What is the most popular web framework in Ruby?"
+    #"What is the most commonly used build tool for C# applications?"
+
+    # Multihop Questions
+
+    #"In which versions of Python were both asyncio introduced and type annotations standardized?"
+    #"What tools and languages do you need to build a full-stack web application using JavaScript?"
+    #"How do you set up a continuous integration pipeline for a Go project using GitHub Actions?"
+    #"In what order do you initialize a Rust project, create a basic function, and handle an error?"
+    #"How would you migrate a Java application from JDK 8 to JDK 11 and replace the use of PermGen with Metaspace?"
+]

@@ -1,0 +1,112 @@
+{
+    "qa_pairs": [
+        {
+            "question": "Which arithmetic operations does Python have?",
+            "golden_answer": "addition (+), subtraction (-), multiplication (*), division (/), floor division (//), modulo operation (%), ** operator for exponentiation."
+        },
+        {
+            "question": "Is JavaScript case-sensitive?",
+            "golden_answer": "Yes, Javascript is case-sensitive"
+        },
+        {
+            "question": "Does C++ support operator overloading?",
+            "golden_answer": "Yes, C++ does support operator overloading"
+        },
+        {
+            "question": "Is C faster than Python?",
+            "golden_answer": "Yes, C is generally faster than Python."
+        },
+        {
+            "question": "Does Java have a stricter type checking than JavaScript",
+            "golden_answer": "Yes, Java has a stricter type checking than JavaScript"
+        },
+        {
+            "question": "Is Ruby more similar to Perl or Python?",
+            "golden_answer": "Ruby is more similar to Perl in terms of syntax and some language features."
+        },
+        {
+            "question": "What does the public keyword mean in Java?",
+            "golden_answer": "The public keyword in Java is an access modifier that indicates that the member (such as class, method or variable) is accessible from any other class in any package"
+        },
+        {
+            "question": "What is a goroutine in Go?",
+            "golden_answer": "A goroutine in Go is a lightweight thread managed by the Go runtime."
+        },
+        {
+            "question": "How do you define a function in Ruby?",
+            "golden_answer": "In Ruby, a function is defined using the def keyword followed by the function name, optional parameters and a block of code. The function is ended with the end keyword."
+        },
+        {
+            "question": "Which versions of Java introduced both generic and annotiations?",
+            "golden_answer": "Java introduced both generics and annotations in Java 5 (JDK 1.5)"
+        },
+        {
+            "question": "Which versions of Python support both f-strings and type hints?",
+            "golden_answer": "Python introduced f-strings and supported type hints in Version 3.6"
+        },
+        {
+            "question": "Which versions of C++ support both smart pointers and lambda expressions?",
+            "golden_answer": "C++ introduced smart pointers und lambda expressions in Version C++11"
+        },
+        {
+            "question": "What was the first version of Python to introduce the with statement?",
+            "golden_answer": "The with statement was introduced in Python 2.5."
+        },
+        {
+            "question": "In which iteration of the ECMAScript standard was let introduced in JavaScript?",
+            "golden_answer": "The let keyword was introduced in ECMAScript 6 (ECMAScript 2015, ES6)"
+        },
+        {
+            "question": "What was the first official release of Rust?",
+            "golden_answer": "The first offical stable release of Rust was version 1.0.0,"
+        },
+        {
+            "question": "How many primitive data types does Java have?",
+            "golden_answer": "Java has 8 primtive data types"
+        },
+        {
+            "question": "How many built-in data types are in Ruby?",
+            "golden_answer": "Python has 7 arithemtic data types"
+        },
+        {
+            "question": "How many arithmetic operations does Python have?",
+            "golden_answer": "Ruby does have 11 built-in data types"
+        },
+        {
+            "question": "What is the difference between Java and C++ regarding memory management?",
+            "golden_answer": "Java uses automatic garbage collection to manage memory, whereas C++ relies on manual memory management."
+        },
+        {
+            "question": "How does Python's range function differ in Python 2 and Python 3?",
+            "golden_answer": "In Python 2, the range() function returns a list of numbers, which is immediately generated and stored in memory. In Python 3, range() behaves like xrange() in Python 2, returning a immutable sequence type(which behaves like a iterator)"
+        },
+        {
+            "question": "What is the difference between let and var in JavaScript?",
+            "golden_answer": "\n    var is function-scoped. let is block-scoped. var is recognized at the start of the scope, but initialized with undefined\n    let is hoisted but not initialized, leading to temporal dead zone, where variable cannot be accessed before its declaration line.\n    var allows re-declaration of the same variable within the same scope. let does not allow re-declaration"
+        },
+        {
+            "question": "What is the most commonly used Python library for data analysis?",
+            "golden_answer": "The most commonly used Python library for data analysis is Pandas. Pandas provides data structures like DataFrames and Series, which are essential for data manipulation, cleaning, and analysis in Python."
+        },
+        {
+            "question": "What is the most popular IDE for Java development?",
+            "golden_answer": "The most popular Integrated Development Environment (IDE) for Java development is IntelliJ IDEA by JetBrains. It is highly regarded for its powerful features, intelligent code completion, and seamless integration with version control systems."
+        },
+        {
+            "question": "What is the most widely used JavaScript framework for front-end development?",
+            "golden_answer": "The most widely used JavaScript framework for front-end development is React. Developed by Facebook, React has gained widespread adoption due to its component-based architecture, virtual DOM, and efficient rendering."
+        },
+        {
+            "question": "In which versions of Python were both asyncio introduced and type annotations standardized?",
+            "golden_answer": "Python 3.5 and later versions support both asyncio and type annotations."
+        },
+        {
+            "question": "What tools and languages do you need to build a full-stack web application using JavaScript?",
+            "golden_answer": "\n    Frontend: HTML/CSS for structure and styling, JavaScript for interaction, JavaScript framework or library. Backend: Node.js as runtime environment,\n    Express.js as a web framework. Database: MongoDB or MySQL/PostgresSQL for data storage. Version Control: Github. Deployment: Docker, Heroku or AWS for cloud deployment,\n    "
+        },
+        {
+            "question": "How do you set up a continuous integration pipeline for a Go project using GitHub Actions?",
+            "golden_answer": "\n    Create a .github/workflows directory in repo. Create YAML file in .github/workflows directory. Define the pipeline in YAML file.\n    Commit and push the github/workflows/ci.yml file to repo.\n    Github actions will automatically run the CL pipeline on each push to the main branch of when a pull request is opened. The pipeline checks out the code,\n    sets up the Go environment, installs depencencies and runs the tests.\n    "
+        }
+    ]
+}
