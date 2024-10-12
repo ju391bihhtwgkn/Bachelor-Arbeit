@@ -1,0 +1,109 @@
+{
+    "qa_pairs": [
+        {
+            "question": "Is Python an interpreted language?",
+            "golden_answer": "Yes",
+            "difficulty": "Yes/No Question"
+        },
+        {
+            "question": "Is Python a strongly typed language?",
+            "golden_answer": "No",
+            "difficulty": "Yes/No Question"
+        },
+        {
+            "question": "Compare Python's list and tuple data structures based on mutability.",
+            "golden_answer": "Lists are mutable while tuples are immutable.",
+            "difficulty": "Comparative"
+        },
+        {
+            "question": "Compare Python's '==' operator and 'is' operator in terms of functionality.",
+            "golden_answer": "'==' checks for equality of values, while 'is' checks for object identity.",
+            "difficulty": "Comparative"
+        },
+        {
+            "question": "Is Java a statically typed language?",
+            "golden_answer": "Yes",
+            "difficulty": "Yes/No Question"
+        },
+        {
+            "question": "Does Java support multiple inheritance?",
+            "golden_answer": "No",
+            "difficulty": "Yes/No Question"
+        },
+        {
+            "question": "Compare Java and Python based on their performance.",
+            "golden_answer": "Java is generally faster than Python due to its static typing and compilation to bytecode.",
+            "difficulty": "Comparative"
+        },
+        {
+            "question": "Compare Java and C++ in terms of memory management.",
+            "golden_answer": "Java has automatic garbage collection while C++ requires manual memory management.",
+            "difficulty": "Comparative"
+        },
+        {
+            "question": "Is C# a statically-typed language?",
+            "golden_answer": "Yes",
+            "difficulty": "Yes/No"
+        },
+        {
+            "question": "Does C# support multiple inheritance?",
+            "golden_answer": "No",
+            "difficulty": "Yes/No"
+        },
+        {
+            "question": "How does C# compare to Java in terms of platform independence?",
+            "golden_answer": "C# is primarily used on the Windows platform, while Java is known for its platform independence.",
+            "difficulty": "Comparative"
+        },
+        {
+            "question": "In terms of syntax, how does C# compare to C++?",
+            "golden_answer": "C# has a simpler syntax compared to C++.",
+            "difficulty": "Comparative"
+        },
+        {
+            "question": "Is C a high-level programming language?",
+            "golden_answer": "No",
+            "difficulty": "Yes/No"
+        },
+        {
+            "question": "Is C a statically typed language?",
+            "golden_answer": "Yes",
+            "difficulty": "Yes/No"
+        },
+        {
+            "question": "Compare C and C++ in terms of complexity.",
+            "golden_answer": "C is considered simpler and more lightweight compared to C++.",
+            "difficulty": "Comparative"
+        },
+        {
+            "question": "Compare C and Java in terms of platform independence.",
+            "golden_answer": "Java is platform-independent while C is not.",
+            "difficulty": "Comparative"
+        },
+        {
+            "question": "Is JavaScript a dynamically typed language?",
+            "golden_answer": "Yes, JavaScript is a dynamically typed language",
+            "difficulty": "Yes/No Question"
+        },
+        {
+            "question": "Does JavaScript support object-oriented programming?",
+            "golden_answer": "Yes, JavaScript supports object-oreinted programming",
+            "difficulty": "Yes/No Question"
+        },
+        {
+            "question": "Compare JavaScript and Java based on their intended use cases.",
+            "golden_answer": "JavaScript is primarily used for client-side web development, while Java is used for a wide range of applications including web development, mobile apps, and enterprise software.",
+            "difficulty": "Comparative"
+        },
+        {
+            "question": "Compare JavaScript and Python in terms of syntax readability.",
+            "golden_answer": "Python is known for its clean and readable syntax, while JavaScript can sometimes be more complex and harder to read.",
+            "difficulty": "Comparative"
+        },
+        {
+            "question": "Is C++ a statically typed language?",
+            "golden_answer": "Yes, C++ is a statically typed language",
+            "difficulty": "Yes/No"
+        }
+    ]
+}

@@ -1,0 +1,359 @@
+{
+    "qa_pairs": [
+        {
+            "question": "Is Python an interpreted language?",
+            "golden_answer": "Yes, Python is a interpreted Language",
+            "difficulty": "Yes/No Question"
+        },
+        {
+            "question": "What is the purpose of the 'print' function in Python?",
+            "golden_answer": "To display output to the console.",
+            "difficulty": "Generic"
+        },
+        {
+            "question": "In Python, how can you check if a number is both positive and even?",
+            "golden_answer": "By using the 'and' operator to combine the conditions.",
+            "difficulty": "Intersection"
+        },
+        {
+            "question": "What is the 3rd element in a list in Python?",
+            "golden_answer": "The element at index 2.",
+            "difficulty": "Ordinal"
+        },
+        {
+            "question": "How can you calculate the average of a list of numbers in Python?",
+            "golden_answer": "By summing all the numbers and dividing by the total count.",
+            "difficulty": "Multihop"
+        },
+        {
+            "question": "Is Java a statically typed language?",
+            "golden_answer": "Yes, Java is statically typed",
+            "difficulty": "Yes/No"
+        },
+        {
+            "question": "Compare Java and Python based on their syntax complexity.",
+            "golden_answer": "Java has a more complex syntax compared to Python.",
+            "difficulty": "Comparative"
+        },
+        {
+            "question": "What is the 5th element in an array in Java?",
+            "golden_answer": "The element at index 4.",
+            "difficulty": "Ordinal"
+        },
+        {
+            "question": "How many primitive data types are there in Java?",
+            "golden_answer": "8",
+            "difficulty": "Count"
+        },
+        {
+            "question": "Does Java not support multiple inheritance?",
+            "golden_answer": "Yes",
+            "difficulty": "Difference"
+        },
+        {
+            "question": "Is C# a statically typed language?",
+            "golden_answer": "Yes, D# is a astatically typed language",
+            "difficulty": "Yes/No Question"
+        },
+        {
+            "question": "What is the syntax for declaring a variable in C#?",
+            "golden_answer": "var variableName = value;",
+            "difficulty": "Generic"
+        },
+        {
+            "question": "In C#, how can you check if a number is both positive and even?",
+            "golden_answer": "if(number > 0 && number % 2 == 0)",
+            "difficulty": "Intersection"
+        },
+        {
+            "question": "Which of the following is not a valid data type in C#: int, string, boolean, float?",
+            "golden_answer": "float",
+            "difficulty": "Difference"
+        },
+        {
+            "question": "What is the maximum value that can be stored in an int variable in C#?",
+            "golden_answer": "2147483647",
+            "difficulty": "Superlative"
+        },
+        {
+            "question": "Compare the memory allocation of variables in C and Java.",
+            "golden_answer": "In C, memory allocation is done manually using functions like malloc and free, while in Java, memory allocation is handled automatically by the JVM.",
+            "difficulty": "Comparative"
+        },
+        {
+            "question": "What is the ordinal position of the 'for' loop in C control structures?",
+            "golden_answer": "The 'for' loop is the second control structure in C, following the 'if' statement.",
+            "difficulty": "Ordinal"
+        },
+        {
+            "question": "What is the difference between '==' and '!=' operators in C?",
+            "golden_answer": "'==' is the equality operator, while '!=' is the inequality operator.",
+            "difficulty": "Difference"
+        },
+        {
+            "question": "Is JavaScript a dynamically typed language?",
+            "golden_answer": "Yes, JavaScript is a dynamically typed language",
+            "difficulty": "Yes/No"
+        },
+        {
+            "question": "What is the difference between '==' and '===' operators in JavaScript?",
+            "golden_answer": "'==' checks for equality without type conversion, while '===' checks for equality with type conversion.",
+            "difficulty": "Difference"
+        },
+        {
+            "question": "In JavaScript, how would you retrieve data from an API, process it, and display it on a webpage?",
+            "golden_answer": "You would make a fetch request to the API, then handle the response data, and finally update the DOM with the processed data.",
+            "difficulty": "Multihop"
+        },
+        {
+            "question": "What is the syntax for declaring a variable in C++?",
+            "golden_answer": "In C++, variables are declared by specifying the data type followed by the variable name.",
+            "difficulty": "Generic"
+        },
+        {
+            "question": "What is the ordinal position of the 'vector' data structure in C++ standard library?",
+            "golden_answer": "The 'vector' data structure is the second container in the C++ standard library, following 'array'.",
+            "difficulty": "Ordinal"
+        },
+        {
+            "question": "How many access specifiers are there in C++?",
+            "golden_answer": "There are three access specifiers in C++: public, private, and protected.",
+            "difficulty": "Count"
+        },
+        {
+            "question": "How can you implement a function in C++ that calculates the factorial of a number using recursion?",
+            "golden_answer": "To calculate the factorial of a number using recursion in C++, you can define a function that calls itself with a decrementing argument until reaching the base case.",
+            "difficulty": "Multihop"
+        },
+        {
+            "question": "Is Go a statically typed language?",
+            "golden_answer": "Yes, Go is a statically typed language",
+            "difficulty": "Yes/No"
+        },
+        {
+            "question": "What is the syntax for declaring a variable in Go?",
+            "golden_answer": "var variableName dataType",
+            "difficulty": "Generic"
+        },
+        {
+            "question": "How many built-in data types are there in Go?",
+            "golden_answer": "There are 25 built-in data types in Go.",
+            "difficulty": "Count"
+        },
+        {
+            "question": "What is the difference between a pointer and a value in Go?",
+            "golden_answer": "Pointers store the memory address of a value, while values store the actual data.",
+            "difficulty": "Difference"
+        },
+        {
+            "question": "What is the superlative maximum value of an int type in Go?",
+            "golden_answer": "The maximum value of an int type in Go is 9223372036854775807.",
+            "difficulty": "Superlative"
+        },
+        {
+            "question": "Is Visual Basic (.NET) an object-oriented programming language?",
+            "golden_answer": "Yes, it is a object-oriented programming language",
+            "difficulty": "Yes/No Question"
+        },
+        {
+            "question": "In Visual Basic (.NET), how can you check if a number is both greater than 5 and less than 10?",
+            "golden_answer": "By using the logical 'And' operator to combine the conditions.",
+            "difficulty": "Intersection"
+        },
+        {
+            "question": "How many built-in data types are available in Visual Basic (.NET)?",
+            "golden_answer": "There are 11 built-in data types in Visual Basic (.NET).",
+            "difficulty": "Count"
+        },
+        {
+            "question": "Which of the following statements is NOT true about Visual Basic (.NET)?\nA. It is case-sensitive.\nB. It supports inheritance.\nC. It is a high-level programming language.",
+            "golden_answer": "A. It is case-sensitive.",
+            "difficulty": "Difference"
+        },
+        {
+            "question": "What is the superlative way to find the maximum value in an array in Visual Basic (.NET)?",
+            "golden_answer": "By using the 'Max' method of the 'System.Linq' namespace.",
+            "difficulty": "Superlative"
+        },
+        {
+            "question": "Compare the performance of Fortran and Python in terms of speed.",
+            "golden_answer": "Fortran is generally faster than Python due to its optimized compilation process.",
+            "difficulty": "Comparative"
+        },
+        {
+            "question": "Does Fortran not support object-oriented programming?",
+            "golden_answer": "No, Fortran does support object-oriented programming.",
+            "difficulty": "Difference"
+        },
+        {
+            "question": "Is SQL a programming language?",
+            "golden_answer": "Yes, SQL is a programming language",
+            "difficulty": "Yes/No"
+        },
+        {
+            "question": "Find the employees who are both managers and have a salary above $100,000.",
+            "golden_answer": "SELECT * FROM employees WHERE role = 'manager' AND salary > 100000;",
+            "difficulty": "Intersection"
+        },
+        {
+            "question": "What is the second highest salary in the employees table?",
+            "golden_answer": "SELECT MAX(salary) FROM employees WHERE salary < (SELECT MAX(salary) FROM employees);",
+            "difficulty": "Ordinal"
+        },
+        {
+            "question": "How many employees are there in the company?",
+            "golden_answer": "SELECT COUNT(*) FROM employees;",
+            "difficulty": "Count"
+        },
+        {
+            "question": "Which employees do not have the role of 'developer'?",
+            "golden_answer": "SELECT * FROM employees WHERE role <> 'developer';",
+            "difficulty": "Difference"
+        },
+        {
+            "question": "What is the department with the highest average salary?",
+            "golden_answer": "SELECT department, AVG(salary) FROM employees GROUP BY department ORDER BY AVG(salary) DESC LIMIT 1;",
+            "difficulty": "Superlative"
+        },
+        {
+            "question": "Find the name of the department where employee 'Alice' works.",
+            "golden_answer": "SELECT department_name FROM departments WHERE department_id = (SELECT department_id FROM employees WHERE name = 'Alice');",
+            "difficulty": "Multihop"
+        },
+        {
+            "question": "Compare Delphi and C++ based on their popularity among developers.",
+            "golden_answer": "Delphi is less popular than C++ among developers.",
+            "difficulty": "Comparative"
+        },
+        {
+            "question": "How many different data types are supported in Delphi?",
+            "golden_answer": "Delphi supports multiple data types such as integers, strings, and arrays.",
+            "difficulty": "Count"
+        },
+        {
+            "question": "Which of the following is not a feature of Delphi: garbage collection, automatic memory management, or manual memory management?",
+            "golden_answer": "Garbage collection",
+            "difficulty": "Difference"
+        },
+        {
+            "question": "What is the maximum number of elements that can be stored in an array in Delphi?",
+            "golden_answer": "The maximum number of elements that can be stored in an array in Delphi is limited by the available memory.",
+            "difficulty": "Superlative"
+        },
+        {
+            "question": "How would you create a Delphi program that reads a text file, counts the number of words in the file, and then outputs the result?",
+            "golden_answer": "To achieve this, you would need to read the text file line by line, split each line into words, and then count the total number of words.",
+            "difficulty": "Multihop"
+        },
+        {
+            "question": "Is Rust a statically typed language?",
+            "golden_answer": "Yes, Ruby is a statically typed language",
+            "difficulty": "Yes/No"
+        },
+        {
+            "question": "Compare Rust and C++ based on memory safety features.",
+            "golden_answer": "Rust has built-in memory safety features while C++ does not.",
+            "difficulty": "Comparative"
+        },
+        {
+            "question": "What is the syntax for defining a function in Rust?",
+            "golden_answer": "fn functionName() {}",
+            "difficulty": "Generic"
+        },
+        {
+            "question": "In Rust, how can you check if a number is both positive and even?",
+            "golden_answer": "You can use an if statement with conditions for both positivity and evenness.",
+            "difficulty": "Intersection"
+        },
+        {
+            "question": "How many ownership rules does Rust enforce?",
+            "golden_answer": "Rust enforces three ownership rules: move, borrow, and copy.",
+            "difficulty": "Count"
+        },
+        {
+            "question": "How can you implement a multithreaded application in Rust?",
+            "golden_answer": "You can use Rust's std::thread module to create and manage threads in a multithreaded application.",
+            "difficulty": "Multihop"
+        },
+        {
+            "question": "What is the purpose of the 'puts' method in Ruby?",
+            "golden_answer": "To output text to the console with a newline character.",
+            "difficulty": "Generic"
+        },
+        {
+            "question": "In Ruby, how can you check if a number is both even and greater than 10?",
+            "golden_answer": "By using the '&&' operator with the conditions 'number.even?' and 'number > 10'.",
+            "difficulty": "Intersection"
+        },
+        {
+            "question": "What is the difference between '==' and '!=' in Ruby?",
+            "golden_answer": "'==' checks for equality while '!=' checks for inequality.",
+            "difficulty": "Difference"
+        },
+        {
+            "question": "How can you calculate the average of a list of numbers in Ruby?",
+            "golden_answer": "By summing all numbers and dividing by the count.",
+            "difficulty": "Multihop"
+        },
+        {
+            "question": "Is Swift a statically typed language?",
+            "golden_answer": "Yes, Swift is a statically typed language",
+            "difficulty": "Yes/No"
+        },
+        {
+            "question": "Which is faster, Swift or Objective-C?",
+            "golden_answer": "Swift is faster than Objective-C",
+            "difficulty": "Comparative"
+        },
+        {
+            "question": "How many control transfer statements are available in Swift?",
+            "golden_answer": "5",
+            "difficulty": "Count"
+        },
+        {
+            "question": "Is Swift not a scripting language?",
+            "golden_answer": "No, Swift is not a scripting language",
+            "difficulty": "Difference"
+        },
+        {
+            "question": "Which iOS programming language is considered the most efficient?",
+            "golden_answer": "Swift",
+            "difficulty": "Superlative"
+        },
+        {
+            "question": "Is PHP a server-side scripting language?",
+            "golden_answer": "Yes, PHP is a server-side scripting language",
+            "difficulty": "Yes/No Question"
+        },
+        {
+            "question": "Compare PHP and JavaScript based on their primary use in web development.",
+            "golden_answer": "PHP is primarily used for server-side scripting, while JavaScript is primarily used for client-side scripting.",
+            "difficulty": "Comparative"
+        },
+        {
+            "question": "What is the syntax for a basic 'if' statement in PHP?",
+            "golden_answer": "The syntax for a basic 'if' statement in PHP is 'if (condition) { // code to be executed if condition is true }'",
+            "difficulty": "Generic"
+        },
+        {
+            "question": "In PHP, how can you check if a variable is both set and not empty?",
+            "golden_answer": "You can use the condition 'isset($variable) && !empty($variable)' to check if a variable is both set and not empty.",
+            "difficulty": "Intersection"
+        },
+        {
+            "question": "What is the ordinal position of the 'foreach' loop in PHP's list of control structures?",
+            "golden_answer": "The 'foreach' loop is the fourth control structure in PHP's list, following 'if', 'while', and 'for'.",
+            "difficulty": "Ordinal"
+        },
+        {
+            "question": "Which of the following statements about PHP is false: PHP is a compiled language, PHP is case-sensitive, or PHP is platform-independent?",
+            "golden_answer": "PHP is a compiled language",
+            "difficulty": "Difference"
+        },
+        {
+            "question": "To connect to a MySQL database in PHP, what are the multihop steps involved?",
+            "golden_answer": "The multihop steps involved in connecting to a MySQL database in PHP include establishing a connection using mysqli_connect(), selecting the database using mysqli_select_db(), and executing queries using mysqli_query().",
+            "difficulty": "Multihop"
+        }
+    ]
+}

@@ -1,0 +1,185 @@
+typ,question,response,gold_answers,context,BERT_precision,BERT_recall,BERT_F1,BLEURT-Score,ragas_answer_correctness,ragas_answer_relevancy,ragas_context_precision,ragas_context_recall,ragas_faithfulness,llm_accuracy,llm_relevance,llm_completeness,llm_overall
+RAG,Which arithmetic operations does Python have?,"Python has the following arithmetic operations:
+- Addition (+)
+- Subtraction (-)
+- Multiplication (*)
+- Division (/)
+- Floor division (//)
+- Modulo (%)
+- Exponentiation (**)
+- String concatenation using the + operator
+- String duplication using the * operator","addition (+), subtraction (-), multiplication (*), division (/), floor division (//), modulo operation (%), ** operator for exponentiation.","Python has the usual symbols for arithmetic operators (+, -, *, /), the floor division operator // and the modulo operation % (where the remainder can be negative, e.g. 4 % -3 == -2). It also has ** for exponentiation, e.g. 5**3 == 125 and 9**0.5 == 3.0,
+
+The +, -, and * operators for mathematical addition, subtraction, and multiplication are similar to other languages, but the behavior of division differs. There are two types of divisions in Python: floor division (or integer division) // and
+
+Python also provides methods, often called dunder methods (due to their names beginning and ending with double-underscores), to allow user-defined classes to modify how they are handled by native operations including length, comparison, in arithmetic
+
+Expressions[edit]
+Python's expressions include:
+
+floor division (or integer division) // and floating-point/division.[103] Python uses the ** operator for exponentiation.
+
+Python uses the + operator for string concatenation. Python uses the * operator for duplicating a string a specified number of times.
+The @ infix operator. It is intended to be used by libraries such as NumPy for matrix multiplication.[104][105]
+
+The division between integers produces floating-point results. The behavior of division has changed significantly over time:[122]
+Current Python (i.e. since 3.0) changed / to always be floating-point division, e.g. 5/2 == 2.5.
+
+arithmetic: +, -, *, /, %
+assignment: =
+augmented assignment: +=, -=, *=, /=, %=, &=, |=, ^=, <<=, >>=
+bitwise logic: ~, &, |, ^
+bitwise shifts: <<, >>
+Boolean logic: !, &&, ||
+conditional evaluation: ? :
+equality testing: ==, !=
+calling functions: ( )
+
+The language supports a rich set of operators, including bit manipulation, for integer arithmetic and logic, and perhaps different sizes of floating point numbers – it can process appropriately-structured data effectively.
+
+SageMath is a computer algebra system with a notebook interface programmable in Python: its library covers many aspects of mathematics, including algebra, combinatorics, numerical mathematics, number theory, and calculus.[211] OpenCV has Python bindings",0.12492658942937851,0.542224109172821,0.3257944881916046,0.586840808391571,0.22322013143144626,0.9829858182609265,0.72718253967042,0.6,nan,0.8,1.0,0.9,0.9
+RAG,Is JavaScript case-sensitive?,"Yes, JavaScript is case-sensitive. This means that variables, functions, and other identifiers must be typed with the correct capitalization to be recognized by the language.","Yes, Javascript is case-sensitive","Although Java and JavaScript are similar in name, syntax, and respective standard libraries, the two languages are distinct and differ greatly in design.
+History
+Creation at Netscape
+
+JScript
+KJS
+Linear B
+QtScript
+Rhino
+SpiderMonkey
+TraceMonkey
+JägerMonkey
+Tamarin
+V8
+ChakraCore
+Chakra
+JScript .NET
+Nashorn
+FrameworksClient-side
+Dojo
+Echo
+Ext JS
+Google Web Toolkit
+jQuery
+Lively Kernel
+midori
+MochiKit
+MooTools
+Prototype
+Pyjs
+qooxdoo
+
+^ Rehorik, Jan (29 November 2016). ""Why You Should Never Put Sensitive Data in Your JavaScript"". ServiceObjects Blog. ServiceObjects. Archived from the original on 3 June 2019. Retrieved 3 June 2019.
+
+The choice of the JavaScript name has caused confusion, implying that it is directly related to Java. At the time, the dot-com boom had begun and Java was a popular new language, so Eich considered the JavaScript name a marketing ploy by Netscape.[14]
+
+JavaScript libraries
+Ajax frameworks
+Comparisons
+JavaScript frameworks
+server-side JavaScript
+vteWeb browsers
+Features
+standards
+protocols
+Features
+Bookmarks
+Extensions
+Privacy mode
+Web standards
+HTML
+v5
+CSS
+DOM
+JavaScript
+WebAssembly
+Web storage
+
+Trademark
+""JavaScript"" is a trademark of Oracle Corporation in the United States.[37][38] The trademark was originally issued to Sun Microsystems on 6 May 1997, and was transferred to Oracle when they acquired Sun in 2009.[39]
+Website client-side usage
+
+A common misconception is that JavaScript is directly related to Java. Both indeed have a C-like syntax (the C language being their most immediate common ancestor language). They are also typically sandboxed, and JavaScript was designed with Java's syntax
+
+which runs in the same sandbox as regular JavaScript code.
+
+Retrieved from ""https://en.wikipedia.org/w/index.php?title=JavaScript&oldid=1249375841""
+
+People
+Brendan Eich
+Douglas Crockford
+John Resig
+Scott Isaacs
+Other
+DHTML
+Ecma International
+JSDoc
+JSGI
+JSHint
+JSLint
+JSON
+JSSS
+Sputnik
+SunSpider
+Asynchronous module definition
+CommonJS
+Lists
+JavaScript libraries
+Ajax frameworks
+Comparisons",0.12492658942937851,0.542224109172821,0.3257944881916046,0.586840808391571,0.23203631986162537,1.0000000000000007,0.0,1.0,0.5,1.0,1.0,0.9,0.9666666666666667
+RAG,Does C++ support operator overloading?,"Yes, C++ does support operator overloading. It provides more than 35 operators that can be overloaded for user-defined types. Some notable exceptions for overloading include member access and the conditional operator.","Yes, C++ does support operator overloading","C++ provides more than 35 operators, covering basic arithmetic, bit manipulation, indirection, comparisons, logical operations and others. Almost all operators can be overloaded for user-defined types, with a few notable exceptions such as member access
+
+Overloadable operators are also an essential part of many advanced C++ programming techniques, such as smart pointers. Overloading an operator does not change the precedence of calculations involving the operator, nor does it change the number of operands
+
+a few notable exceptions such as member access (. and .*) and the conditional operator. The rich set of overloadable operators is central to making user-defined types in C++ seem like built-in types.
+
+However, unlike Java, C# supports operator overloading.[88]
+C# also offers function overloading (a.k.a. ad-hoc-polymorphism).[89]
+
+Operators and operator overloading[edit]
+Operators that cannot be overloaded
+Operator
+Symbol
+Scope resolution
+::
+Conditional
+?:
+dot
+.
+Member selection
+.*
+""sizeof""
+sizeof
+""typeid""
+typeid
+Main article: Operators in C and C++
+
+C++14
+C++17
+C++20
+C++23
+C++26
+Libraries
+Features
+Classes
+Concepts
+Copy constructor
+Exception handling (Exception safety)
+Function overloading
+Move semantics
+new and delete
+Operator overloading
+Operators
+References
+Templates
+Virtual functions
+
+implicitly. C++ virtual inheritance exhibits an ambiguity resolution feature called dominance.
+
+C++ should work alongside other existing programming languages, rather than fostering its own separate and incompatible programming environment.
+If the programmer's intent is unknown, allow the programmer to specify it by providing manual control.
+
+Therefore, C++ supports not just object-oriented programming, but other decomposition paradigms such as modular programming.
+
+Most operators in C also appear in Swift, although some operators such as + have slightly different behavior. For example, in Swift, + traps on overflow, whereas &+ is used to denote the C-like behavior of wrapping on overflow.",0.12492658942937851,0.542224109172821,0.3257944881916046,0.586840808391571,0.23434309013743015,1.0000000000000007,0.9266666666481335,1.0,1.0,1.0,1.0,0.9,0.97

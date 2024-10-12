@@ -1,0 +1,16 @@
+{
+    "qa_pairs": [
+        {
+            "question": "Which arithmetic operations does Python have?",
+            "golden_answer": "addition (+), subtraction (-), multiplication (*), division (/), floor division (//), modulo operation (%), ** operator for exponentiation."
+        },
+        {
+            "question": "Is JavaScript case-sensitive?",
+            "golden_answer": "Yes, Javascript is case-sensitive"
+        },
+        {
+            "question": "Does C++ support operator overloading?",
+            "golden_answer": "Yes, C++ does support operator overloading"
+        }
+    ]
+}
