@@ -1,1 +1,1 @@
-#RAG (Retrival augmented generation) von Anfragen für ein Sprachmodell für Konzepten in Programmiersprachen
+Entwicklung und Evaluierung eines Chatbots zur Unterstützung von Programmierfragen mit Retrieval-Augmented Generation
